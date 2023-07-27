@@ -28,8 +28,12 @@ img {
     url(../img/carousel-1.jpg);
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  margin: 0 auto;
+  max-width: 1210px;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
